@@ -1,0 +1,1132 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"func stringPos\tint"
+			],
+			[
+				"ht",
+				"func htmlEntityDecode\tstring"
+			],
+			[
+				"ma",
+				"var match\t[]string"
+			],
+			[
+				"FindString",
+				"func FindStringSubmatch\t[]string"
+			],
+			[
+				"Resp",
+				"type ResponseWriter\tinterface"
+			],
+			[
+				"sign",
+				"signin_handler"
+			],
+			[
+				"user",
+				"var userToken\tstring"
+			],
+			[
+				"StatusBad",
+				"const StatusBadRequest\tuntyped int"
+			],
+			[
+				"w",
+				"func WriteHeader"
+			],
+			[
+				"hand",
+				"func handlePost"
+			],
+			[
+				"Load",
+				"func LoadUint64\tval uint64"
+			],
+			[
+				"Form",
+				"func FormValue\tstring"
+			],
+			[
+				"F",
+				"var Form\turl.Values"
+			],
+			[
+				"Par",
+				"func ParseForm\terror"
+			],
+			[
+				"Re",
+				"type Request\tstruct"
+			],
+			[
+				"out",
+				"func outputErrors"
+			],
+			[
+				"e",
+				"var expected_tail\tstring"
+			],
+			[
+				"ex",
+				"var expected_head\tstring"
+			],
+			[
+				"Error",
+				"func Errorf"
+			],
+			[
+				"RE",
+				"ResponseWriter"
+			],
+			[
+				"StatusNot",
+				"const StatusNotFound\tuntyped int"
+			],
+			[
+				"B",
+				"func ById\t*invalid type, error"
+			],
+			[
+				"s",
+				"var store\tmap[string][3]float64"
+			],
+			[
+				"im",
+				"var images\tmap[string]string"
+			],
+			[
+				"T",
+				"type Time\tstruct"
+			],
+			[
+				"S",
+				"func Sub\ttime.Duration"
+			],
+			[
+				"c",
+				"var c1\t<-chan image.Image"
+			],
+			[
+				"New",
+				"func NewNRGBA\t*image.NRGBA"
+			],
+			[
+				"Rec",
+				"type Rectangle\tstruct"
+			],
+			[
+				"t",
+				"var tileSize\tint"
+			],
+			[
+				"x",
+				"var x1\tint"
+			],
+			[
+				"tile",
+				"var titleSize\tint"
+			],
+			[
+				"m",
+				"var mutex\t*sync.Mutex"
+			],
+			[
+				"b",
+				"var bounds\timage.Rectangle"
+			],
+			[
+				"R",
+				"type Rectangle\tstruct"
+			],
+			[
+				"Sp",
+				"func Sprintf\tstring"
+			],
+			[
+				"or",
+				"var originalStr\tstring"
+			],
+			[
+				"buf",
+				"var buf2\t*bytes.Buffer"
+			],
+			[
+				"ne",
+				"var newImage\t*image.NRGBA"
+			],
+			[
+				"Enc",
+				"func EncodeToString\tstring"
+			],
+			[
+				"til",
+				"var tile\tinvalid type"
+			],
+			[
+				"M",
+				"var Max\timage.Point"
+			],
+			[
+				"For",
+				"func FormValue\tstring"
+			],
+			[
+				"Parse",
+				"func ParseMultipartForm\terror"
+			],
+			[
+				"Ser",
+				"type Server\tstruct"
+			],
+			[
+				"Hn",
+				"func HandleFunc"
+			],
+			[
+				"Res",
+				"type ResponseWriter\tinterface"
+			],
+			[
+				"Hand",
+				"func HandleFunc"
+			],
+			[
+				"Fil",
+				"func FileServer\thttp.Handler"
+			],
+			[
+				"Print",
+				"func Println\tn int, err error"
+			],
+			[
+				"Pr",
+				"func Println\tn int, err error"
+			],
+			[
+				"NR",
+				"type NRGBA\tstruct"
+			],
+			[
+				"Set",
+				"func SetNRGBA"
+			],
+			[
+				"NEW",
+				"func NewNRGBA\t*image.NRGBA"
+			],
+			[
+				"r",
+				"var r1\tuint32"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "services/users.go",
+			"settings":
+			{
+				"buffer_size": 2278,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/desmond/go/src/lenslocked.com/models/services.go",
+			"settings":
+			{
+				"buffer_size": 1532,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.go",
+			"settings":
+			{
+				"buffer_size": 993,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/viewer_context.go",
+			"settings":
+			{
+				"buffer_size": 197,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/memorydb.go",
+			"settings":
+			{
+				"buffer_size": 1290,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "signin/signin_handler.go",
+			"settings":
+			{
+				"buffer_size": 641,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/user.go",
+			"settings":
+			{
+				"buffer_size": 281,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "save/downloader_test.go",
+			"settings":
+			{
+				"buffer_size": 423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "save/save_handler.go",
+			"settings":
+			{
+				"buffer_size": 483,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "save/downloader.go",
+			"settings":
+			{
+				"buffer_size": 1439,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/desmond/go/src/lenslocked.com/main.go",
+			"settings":
+			{
+				"buffer_size": 3827,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/desmond/go/src/lenslocked.com/controllers/users.go",
+			"settings":
+			{
+				"buffer_size": 3395,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/desmond/go/src/lenslocked.com/models/users.go",
+			"settings":
+			{
+				"buffer_size": 8426,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Golang Build/Go.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					""
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Install"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Cross-Compile (Interactive)"
+				],
+				[
+					"Packages/Golang Build/Go.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Golang Build/Go.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Build",
+				"Build With: Go - Run"
+			],
+			[
+				"de",
+				"GoGuru: describe"
+			],
+			[
+				"def",
+				"GoGuru: definition"
+			],
+			[
+				"Go Bu",
+				"Build With: Go"
+			],
+			[
+				"Go Buil",
+				"Build With: Go - Test"
+			],
+			[
+				"Go test",
+				"Build With: Go - Test"
+			],
+			[
+				"go test",
+				"Build With: Go - Test"
+			],
+			[
+				"Go",
+				"Build With: Go"
+			],
+			[
+				"go B",
+				"Build With: Go"
+			],
+			[
+				"Go B",
+				"Build With: Go"
+			],
+			[
+				"go Bu",
+				"Build With: Go"
+			],
+			[
+				"Buil",
+				"Build With: Go"
+			],
+			[
+				"CAn",
+				"Go: Cancel Build"
+			],
+			[
+				"Can",
+				"Go: Cancel Build"
+			],
+			[
+				"Go run",
+				"Build With: Go - Run"
+			],
+			[
+				"Canc",
+				"Go: Cancel Build"
+			],
+			[
+				"Go ",
+				"Build With: Go"
+			],
+			[
+				"Go b",
+				"Build With: Go"
+			],
+			[
+				"Go Bui",
+				"Build With: Go"
+			],
+			[
+				"Go Test",
+				"Build With: Go - Test"
+			],
+			[
+				"Bui",
+				"Build With: Go"
+			],
+			[
+				"buil",
+				"Build With: Go"
+			],
+			[
+				"test",
+				"Build With: Go - Test"
+			],
+			[
+				"Go t",
+				"Build With: Go - Test"
+			],
+			[
+				"",
+				"Build With: Go"
+			],
+			[
+				"call",
+				"GoGuru: callers"
+			],
+			[
+				"go",
+				"GoGuru: callers"
+			],
+			[
+				"g",
+				"GoGuru: describe"
+			],
+			[
+				"Bu",
+				"Build With: Go"
+			],
+			[
+				"bui",
+				"Build With: Go"
+			],
+			[
+				"Guru",
+				"GoGuru: callers"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/desmond/go/src/savemylink",
+		"/Users/desmond/go/src/savemylink/models",
+		"/Users/desmond/go/src/savemylink/save",
+		"/Users/desmond/go/src/savemylink/services",
+		"/Users/desmond/go/src/savemylink/signin",
+		"/Users/desmond/go/src/savemylink/util",
+		"/Users/desmond/go/src/lenslocked.com",
+		"/Users/desmond/go/src/lenslocked.com/rand",
+		"/Users/desmond/go/src/lenslocked.com/views"
+	],
+	"file_history":
+	[
+		"/Users/desmond/go/src/savemylink/save/downloader_test.go",
+		"/usr/local/Cellar/go/1.9.2/libexec/src/net/url/url.go",
+		"/Users/desmond/go/src/savemylink/util/urlutil_test.go",
+		"/Users/desmond/go/src/savemylink/save/downloader.go",
+		"/Users/desmond/go/src/savemylink/models/viewer_context.go",
+		"/Users/desmond/go/src/savemylink/util/urlutil.go",
+		"/Users/desmond/go/src/lenslocked.com/controllers/helpers.go",
+		"/Users/desmond/go/src/savemylink/sign_in/signin_handler.go",
+		"/Users/desmond/go/src/savemylink/sign_in/signup_handler",
+		"/Users/desmond/go/src/savemylink/models/user.go",
+		"/Users/desmond/go/src/lenslocked.com/rand/strings.go",
+		"/Users/desmond/go/src/savemylink/database/memorydb_test.go",
+		"/Users/desmond/go/src/savemylink/util/rand.go",
+		"/Users/desmond/go/src/savemylink/main.go",
+		"/Users/desmond/go/src/savemylink/database/memorydb.go",
+		"/Users/desmond/Library/Application Support/Sublime Text 3/Packages/User/GoGuru.sublime-settings",
+		"/Users/desmond/go/src/savemylink/main_test.go",
+		"/Users/desmond/Library/Application Support/Sublime Text 3/Packages/User/Gofmt.sublime-settings",
+		"/Users/desmond/go/src/photo_mosaic/upload.html",
+		"/Users/desmond/go/src/photo_mosaic/mosaic.go",
+		"/Users/desmond/go/src/photo_mosaic/main.go",
+		"/Users/desmond/go/src/photo_mosaic/results.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"htmlEntityDecode",
+			"strpos",
+			"shiftPath",
+			"Login",
+			"NewUserService",
+			"parseForm",
+			"nil",
+			"Create",
+			"\"\"},",
+			":]\n",
+			":]",
+			"UserService",
+			"ByEmail",
+			"User",
+			"&User{",
+			"&User",
+			"error",
+			"models",
+			"rand",
+			"userGorm",
+			"ByEmail",
+			"UserDB",
+			"userService",
+			"Authenticate",
+			"jep"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "services/users.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								688,
+								688
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/gocode/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/desmond/go/src/lenslocked.com/models/services.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/gocode/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 96.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/gocode/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "models/viewer_context.go",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/gocode/syntax/GoSublime-Go.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "database/memorydb.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/gocode/syntax/GoSublime-Go.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "signin/signin_handler.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/gocode/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "models/user.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								281,
+								281
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/gocode/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "save/downloader_test.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								420,
+								420
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/gocode/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "save/save_handler.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/gocode/syntax/GoSublime-Go.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "save/downloader.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1416,
+								1416
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/gocode/syntax/GoSublime-Go.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/desmond/go/src/lenslocked.com/main.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3827,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								838,
+								838
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/gocode/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/desmond/go/src/lenslocked.com/controllers/users.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/gocode/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/desmond/go/src/lenslocked.com/models/users.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3350,
+								3350
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/gocode/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 609.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GoGuru Output":
+	{
+		"height": 108.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.gofmt":
+	{
+		"height": 0.0
+	},
+	"output.golang_build":
+	{
+		"height": 213.0
+	},
+	"pinned_build_system": "",
+	"project": "savemylink.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 158.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

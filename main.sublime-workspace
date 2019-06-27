@@ -1,0 +1,382 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"var store\tmap[string][3]float64"
+			],
+			[
+				"im",
+				"var images\tmap[string]string"
+			],
+			[
+				"T",
+				"type Time\tstruct"
+			],
+			[
+				"S",
+				"func Sub\ttime.Duration"
+			],
+			[
+				"c",
+				"var c1\t<-chan image.Image"
+			],
+			[
+				"New",
+				"func NewNRGBA\t*image.NRGBA"
+			],
+			[
+				"Rec",
+				"type Rectangle\tstruct"
+			],
+			[
+				"t",
+				"var tileSize\tint"
+			],
+			[
+				"x",
+				"var x1\tint"
+			],
+			[
+				"tile",
+				"var titleSize\tint"
+			],
+			[
+				"m",
+				"var mutex\t*sync.Mutex"
+			],
+			[
+				"b",
+				"var bounds\timage.Rectangle"
+			],
+			[
+				"R",
+				"type Rectangle\tstruct"
+			],
+			[
+				"Sp",
+				"func Sprintf\tstring"
+			],
+			[
+				"or",
+				"var originalStr\tstring"
+			],
+			[
+				"buf",
+				"var buf2\t*bytes.Buffer"
+			],
+			[
+				"ne",
+				"var newImage\t*image.NRGBA"
+			],
+			[
+				"Enc",
+				"func EncodeToString\tstring"
+			],
+			[
+				"til",
+				"var tile\tinvalid type"
+			],
+			[
+				"M",
+				"var Max\timage.Point"
+			],
+			[
+				"For",
+				"func FormValue\tstring"
+			],
+			[
+				"Parse",
+				"func ParseMultipartForm\terror"
+			],
+			[
+				"Ser",
+				"type Server\tstruct"
+			],
+			[
+				"Hn",
+				"func HandleFunc"
+			],
+			[
+				"Res",
+				"type ResponseWriter\tinterface"
+			],
+			[
+				"Hand",
+				"func HandleFunc"
+			],
+			[
+				"Fil",
+				"func FileServer\thttp.Handler"
+			],
+			[
+				"Print",
+				"func Println\tn int, err error"
+			],
+			[
+				"Pr",
+				"func Println\tn int, err error"
+			],
+			[
+				"NR",
+				"type NRGBA\tstruct"
+			],
+			[
+				"Set",
+				"func SetNRGBA"
+			],
+			[
+				"NEW",
+				"func NewNRGBA\t*image.NRGBA"
+			],
+			[
+				"r",
+				"var r1\tuint32"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Buil",
+				"Build With: Go"
+			],
+			[
+				"de",
+				"GoGuru: jump to definition"
+			],
+			[
+				"call",
+				"GoGuru: callers"
+			],
+			[
+				"def",
+				"GoGuru: definition"
+			],
+			[
+				"go",
+				"GoGuru: callers"
+			],
+			[
+				"Bui",
+				"Build With: Go"
+			],
+			[
+				"g",
+				"GoGuru: describe"
+			],
+			[
+				"Bu",
+				"Build With: Go"
+			],
+			[
+				"buil",
+				"Build With: Go"
+			],
+			[
+				"bui",
+				"Build With: Go"
+			],
+			[
+				"Go",
+				"GoGuru: describe"
+			],
+			[
+				"Guru",
+				"GoGuru: callers"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/desmond/go/src/savemylink/main.go",
+		"/Users/desmond/go/src/photo_mosaic/upload.html",
+		"/Users/desmond/go/src/photo_mosaic/mosaic.go",
+		"/Users/desmond/go/src/photo_mosaic/main.go",
+		"/Users/desmond/go/src/photo_mosaic/results.html",
+		"/Users/desmond/Library/Application Support/Sublime Text 3/Packages/User/GoGuru.sublime-settings"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GoGuru Output":
+	{
+		"height": 108.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.gofmt":
+	{
+		"height": 0.0
+	},
+	"output.golang_build":
+	{
+		"height": 108.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 159.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
