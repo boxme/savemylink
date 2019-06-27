@@ -7,17 +7,19 @@ import (
 	"savemylink/util"
 )
 
-type SaveHandler struct {
+// Handler is a Struct that contains an instance of ArticleService
+type Handler struct {
 	articleService ArticleService
 }
 
-func NewSaveHandler(articleDb ArticleDB) *SaveHandler {
-	return &SaveHandler{
+// NewSaveHandler creates a new save request handler
+func NewSaveHandler(articleDb ArticleDB) *Handler {
+	return &Handler{
 		articleService: NewArticleService(articleDb, getContent),
 	}
 }
 
-func (sh *SaveHandler) ServeHTTP(
+func (sh *Handler) ServeHTTP(
 	vc *models.ViewerContext, res http.ResponseWriter, req *http.Request) bool {
 
 	var head string
@@ -42,7 +44,7 @@ func (sh *SaveHandler) ServeHTTP(
 	return true
 }
 
-func (sh *SaveHandler) saveArticle(
+func (sh *Handler) saveArticle(
 	vc *models.ViewerContext, res http.ResponseWriter, req *http.Request) {
 	_, err := sh.articleService.DownloadArticle(vc, req)
 	if err != nil {
@@ -51,7 +53,7 @@ func (sh *SaveHandler) saveArticle(
 	}
 }
 
-func (sh *SaveHandler) getArticle(
+func (sh *Handler) getArticle(
 	vc *models.ViewerContext,
 	res http.ResponseWriter,
 	req *http.Request) *save.Article {
@@ -64,7 +66,7 @@ func (sh *SaveHandler) getArticle(
 	return article
 }
 
-func (sh *SaveHandler) deleteArticle(
+func (sh *Handler) deleteArticle(
 	vc *models.ViewerContext,
 	res http.ResponseWriter,
 	req *http.Request) {

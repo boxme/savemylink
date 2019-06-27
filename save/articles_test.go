@@ -16,17 +16,17 @@ import (
 
 const (
 	content     = "content"
-	downloadUrl = "test_url"
+	downloadURL = "test_url"
 )
 
 func testDownload(t *testing.T) {
-	article, _ := mockDownloadContent(t, downloadUrl)
+	article, _ := mockDownloadContent(t, downloadURL)
 
-	if article.Url != downloadUrl {
+	if article.Url != downloadURL {
 		t.Errorf(
 			"Return wrong url: got %v want %v",
 			article.Url,
-			downloadUrl)
+			downloadURL)
 	}
 
 	if article.Content != content {
@@ -38,7 +38,7 @@ func testDownload(t *testing.T) {
 }
 
 func testGetSavedArticle(t *testing.T) {
-	article, articleService := mockDownloadContent(t, downloadUrl)
+	article, articleService := mockDownloadContent(t, downloadURL)
 
 	req, err := http.NewRequest("GET", "/save/", nil)
 	if err != nil {
@@ -66,7 +66,7 @@ func testGetSavedArticle(t *testing.T) {
 }
 
 func testDeleteArticle(t *testing.T) {
-	article, articleService := mockDownloadContent(t, downloadUrl)
+	article, articleService := mockDownloadContent(t, downloadURL)
 
 	req, err := http.NewRequest("DELETE", "/save/", nil)
 	if err != nil {
@@ -88,9 +88,9 @@ func testDeleteArticle(t *testing.T) {
 
 func mockDownloadContent(
 	t *testing.T,
-	downloadUrl string) (*model.Article, ArticleService) {
+	downloadURL string) (*model.Article, ArticleService) {
 	form := url.Values{}
-	form.Add("url", downloadUrl)
+	form.Add("url", downloadURL)
 	req, err := http.NewRequest(
 		"POST",
 		"/save",

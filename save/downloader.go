@@ -14,7 +14,7 @@ func getContent(urlString string) (*readability.Article, error) {
 		return nil, err
 	}
 
-	return downloadContent(cleanUrl(urlString))
+	return downloadContent(cleanURL(urlString))
 }
 
 func isCorrect(urlString string) (bool, error) {
@@ -22,26 +22,26 @@ func isCorrect(urlString string) (bool, error) {
 	return err == nil, err
 }
 
-func cleanUrl(urlString string) string {
+func cleanURL(urlString string) string {
 	htmlDecoded := htmlEntityDecode(urlString)
 
 	pos := stringPos(htmlDecoded, "&utm_source=", 0)
-	cleanUrl := htmlDecoded
+	cleanURL := htmlDecoded
 	if pos != -1 {
-		cleanUrl = htmlDecoded[:pos]
+		cleanURL = htmlDecoded[:pos]
 	}
 
-	pos = stringPos(cleanUrl, "?utm_source=", 0)
+	pos = stringPos(cleanURL, "?utm_source=", 0)
 	if pos != -1 {
-		cleanUrl = cleanUrl[:pos]
+		cleanURL = cleanURL[:pos]
 	}
 
-	pos = stringPos(cleanUrl, "#xtor=RSS-", 0)
+	pos = stringPos(cleanURL, "#xtor=RSS-", 0)
 	if pos != -1 {
-		cleanUrl = cleanUrl[:pos]
+		cleanURL = cleanURL[:pos]
 	}
 
-	return cleanUrl
+	return cleanURL
 }
 
 func htmlEntityDecode(str string) string {
@@ -68,11 +68,12 @@ func stringPos(haystack, needle string, offset int) int {
 
 func downloadContent(urlString string) (*readability.Article, error) {
 	response, err := http.Get(urlString)
-	defer response.Body.Close()
-
+	
 	if err != nil {
 		return nil, err
 	}
+
+	defer response.Body.Close()
 
 	article, err := readability.FromReader(response.Body, urlString)
 	if err != nil {
