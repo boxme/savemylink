@@ -1,5 +1,6 @@
 package models
 
+// User is a struct that contains all user info
 type User struct {
 	Id       uint64
 	Email    string

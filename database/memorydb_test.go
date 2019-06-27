@@ -7,10 +7,11 @@ import (
 
 var email = "me@email.com"
 var password = "password"
+var token = "token"
 
 func TestCreateNewUser(t *testing.T) {
 	db := NewMemoryDb()
-	user, error := db.CreateUser(email, password)
+	user, error := db.GetUserDb().CreateUser(email, password, token)
 
 	printErrorsIfAny(t, error)
 
@@ -25,20 +26,20 @@ func TestCreateNewUser(t *testing.T) {
 
 func TestDuplicateUserCreation(t *testing.T) {
 	db := NewMemoryDb()
-	db.CreateUser(email, password)
+	db.GetUserDb().CreateUser(email, password, token)
 
 	// Create a new user with the same email and password again
-	user, err := db.CreateUser(email, password)
+	user, err := db.GetUserDb().CreateUser(email, password, token)
 	if user != nil && err == nil {
-		t.Errorf("User %d is created again", user)
+		t.Errorf("User %+v is created again", user)
 	}
 }
 
 func TestGetUserById(t *testing.T) {
 	db := NewMemoryDb()
-	user, _ := db.CreateUser(email, password)
+	user, _ := db.GetUserDb().CreateUser(email, password, token)
 
-	foundUser, err := db.GetById(user.Id)
+	foundUser, err := db.GetUserDb().GetById(user.Id)
 	printErrorsIfAny(t, err)
 	if strings.Compare(email, foundUser.Email) != 0 {
 		t.Errorf("User with email %s wasn't found", foundUser.Email)
@@ -47,9 +48,9 @@ func TestGetUserById(t *testing.T) {
 
 func TestGetUserByEmail(t *testing.T) {
 	db := NewMemoryDb()
-	user, _ := db.CreateUser(email, password)
+	user, _ := db.GetUserDb().CreateUser(email, password, token)
 
-	foundUser, err := db.GetByEmail(user.Email)
+	foundUser, err := db.GetUserDb().GetByEmail(user.Email)
 	printErrorsIfAny(t, err)
 	if strings.Compare(email, foundUser.Email) != 0 {
 		t.Errorf("User with email %s wasn't found", foundUser.Email)

@@ -9,7 +9,7 @@ import (
 )
 
 type App struct {
-	AuthHandler *auth.AuthHandler
+	AuthHandler *auth.Handler
 }
 
 func main() {
