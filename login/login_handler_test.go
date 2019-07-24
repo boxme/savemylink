@@ -32,8 +32,8 @@ func TestLogin(t *testing.T) {
 	}
 
 	responseRecorder := httptest.NewRecorder()
-	login_handler := NewSignupHandler(userDB)
-	login_handler.ServeHTTP(responseRecorder, req)
+	loginHandler := NewSignupHandler(userDB)
+	loginHandler.ServeHTTP(responseRecorder, req)
 
 	if responseRecorder.Code != http.StatusOK {
 		t.Errorf(

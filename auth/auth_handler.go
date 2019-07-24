@@ -12,7 +12,7 @@ import (
 	"savemylink/util"
 )
 
-// Handler is a struct that contains all other handlers that will handle 
+// Handler is a struct that contains all other handlers that will handle
 // subsequent requests
 type Handler struct {
 	UserService     services.UserService
